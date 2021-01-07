@@ -1,0 +1,48 @@
+.grid{
+  display:grid;
+  grid-row-gap:25px;
+}
+
+.overview{
+  
+}
+.card-small{
+  background-color:var(--cardGray);
+  padding:20px;
+  display:grid;
+  grid-row-gap:12px;
+  border-radius:5px;
+  grid-template-columns:1fr 1fr;
+  align-items:center;
+}
+.card-small p{
+  margin:0;
+}
+.card-small img{
+  width:25px;
+}
+.card-small-icon{
+  text-align:right;
+  display:flex;
+  justify-content:flex-end;
+}
+.card-small-views{
+  color:var(--cardTitle);
+  font-size:12px;
+  font-weight:bold;
+}
+.card-small-number{
+  font-size:22px;
+  font-weight:bold;
+  color:var(--color);
+}
+.card-small-porcentage{
+  font-size:11px;
+  font-weight:bold;
+  color:#1ABC9C;
+  text-align:right;
+}
+
+.likes-facebook .card-small-porcentage{
+  color:#E74C3C;
+}

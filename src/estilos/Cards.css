@@ -1,0 +1,68 @@
+.grid{
+  display:grid;
+  grid-row-gap:25px;
+}
+.top-cards{
+  margin-top:-40px;
+  margin-bottom:50px;
+}
+.card{
+  background-color:var(--cardGray);
+  border-radius:5px;
+  overflow:hidden;
+  text-align:center;
+  padding:1.7em 0;
+  position:relative;
+}
+.card img{
+  width:30px;
+}
+.social-media{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:var(--cardTitle);
+  font-size:.8em;
+  font-weight:bold;
+}
+.icon-social-media{
+  margin-right:5px;
+}
+.card:before{
+  content:"";
+  height:4px;
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+}
+.card.facebook:before{
+  background-color:#168ef4;
+}
+.card.twitter:before{
+  background-color:#3498DB;
+}
+.card.instagram:before{
+  background-image:linear-gradient(to right, red 0%, blue 100%);
+}
+.card.youtube:before{
+  background-color:#E74C3C;
+}
+.number-followers{
+  font-size:30px;
+  font-weight:700;
+  color:var(--color);
+}
+.title-followers{
+  display:block;
+  text-transform:uppercase;
+  color:var(--cardTitle);
+  font-size:.9em;
+  letter-spacing:2px;
+}
+.card-today{
+  color:#17A589;
+  font-size:.8em;
+  font-weight:bold;
+}
