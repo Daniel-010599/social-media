@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Card(props){
-	console.log(props);
+	//console.log(props);
 	const color = `card ${props.card.color}`;
 	return(
 		<article className={color}>

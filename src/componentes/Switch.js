@@ -7,7 +7,7 @@ function Switch(){
 
 	function handleChange(){
 		setValue(!value);
-		console.log(value)
+		//console.log(value)
 		if(value){
 			document.body.classList.remove('is-light-mode');
 			document.body.classList.add('is-dark-mode');

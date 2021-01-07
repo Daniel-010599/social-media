@@ -1,6 +1,9 @@
 import React from 'react';
 import '../estilos/Overview.css';
 import CardSmall from './CardSmall.js';
+import Facebook from '../images/facebook.png';
+import Instagram from '../images/instagram.png';
+import Youtube from '../images/youtube.png';
 
 const listCardSmall = [
 	{
@@ -8,28 +11,28 @@ const listCardSmall = [
 		title:'Page Views',
 		number:'87',
 		porcentage:'2%',
-		icon:'images/facebook.png'
+		icon:Facebook
 	},
 	{
 		id:2,
 		title:'Likes',
 		number:'52',
 		porcentage:'2%',
-		icon:'images/facebook.png'
+		icon:Facebook
 	},
 	{
 		id:3,
 		title:'Likes',
 		number:'5462',
 		porcentage:'2257%',
-		icon:'images/instagram.png'
+		icon:Instagram
 	},
 	{
 		id:4,
 		title:'Profile Views',
 		number:'52k',
 		porcentage:'1375%',
-		icon:'images/instagram.png'
+		icon:Instagram
 	},
 	{
 		id:5,
@@ -50,14 +53,14 @@ const listCardSmall = [
 		title:'Likes',
 		number:'87',
 		porcentage:'12%',
-		icon:'images/facebook.png'
+		icon:Youtube
 	},
 	{
 		id:8,
 		title:'Total Views',
 		number:'1407',
 		porcentage:'12%',
-		icon:'images/facebook.png'
+		icon:Youtube
 	}
 ]
 

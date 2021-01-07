@@ -1,11 +1,14 @@
 import React from 'react';
 import '../estilos/Cards.css';
-import Card from './Card.js'; 
+import Card from './Card.js';
+import Facebook from '../images/facebook.png';
+import Instagram from '../images/instagram.png';
+import Youtube from '../images/youtube.png';
 
 const cardData = [
 	{
 		id:0,
-		logo:'images/facebook.png',
+		logo:Facebook,
 		username : "@DanielBravo",
 		followers : "1987",
 		today: 11,
@@ -21,7 +24,7 @@ const cardData = [
 	},
 	{
 		id:2,
-		logo:'images/instagram.png',
+		logo:Instagram,
 		username : "@DanielBravo",
 		followers : "11K",
 		today: 13,
@@ -29,7 +32,7 @@ const cardData = [
 	},
 	{
 		id:3,
-		logo:'images/facebook.png',
+		logo:Youtube,
 		username : "@DanielBravo",
 		followers : "1987",
 		today: 14,
@@ -38,7 +41,7 @@ const cardData = [
 ]
 
 function Cards(){
-	console.log(cardData)
+	//console.log(cardData)
 	return(
 		<section className="top-cards">
 		<div className="wrapper">
