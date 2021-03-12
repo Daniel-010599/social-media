@@ -1,6 +1,6 @@
 Challenge Frontend Mentor - Social media dashboard with theme switcher
 
-Dashboard de redes sociales desarrollado con React Js.
+Desarrollado con React Js.
 
 Deploy https://daniel-010599.github.io/social-media/
 
